@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+/*-----------------------Header------------------------*/
+header {
+    height: 15vh;
+
+    background-color: #D9D9D9;
+}
+
+/*-----------------------Section--------------------------*/
+
+section {
+    display: flex;
+
+    height: 65vh;
+}
+
+section div {
+    height: 100%;
+}
+
+.container-1 {
+    width: 33.3vw;
+
+    background-color: #78786F;
+}
+
+.container-2 {
+    width: 33.3vw;
+
+    background-color: #61615C;
+}
+
+.container-3 {
+    width: 33.3vw;
+
+    background-color: #78786F;
+}
+
+/*----------------------Footer----------------------------*/
+
+footer {
+    height: 20vh;
+
+    background-color: #D9D9D9;
+}

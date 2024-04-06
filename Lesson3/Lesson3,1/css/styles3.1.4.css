@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+}
+
+/*---------------------Header------------------------*/
+
+header {
+    height: 15vh;
+
+    background-color: #D9D9D9;
+}
+
+/*----------------------Main--------------------------*/
+
+main {
+    display: flex;
+
+    height: 75vh;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+
+    width: 33.3vw;
+}
+
+.container-1 {
+    height: 33.3vh;
+
+    background: linear-gradient(0deg, #A5A5A3 0%, #A5A5A3 100%),
+                linear-gradient(0deg, #979796 0%, #979796 100%),
+                #979796;
+}
+
+.container-2 {
+    height: 33.3vh;
+
+    background: linear-gradient(0deg, #BABAB9 0%, #BABAB9 100%),
+                linear-gradient(0deg, #7F816A 0%, #7F816A 100%),
+                #979796;
+}
+
+.container-3 {
+    height: 33.3vh;
+
+    background: linear-gradient(0deg, #979796 0%, #979796 100%),
+                linear-gradient(0deg, #979796 0%, #979796 100%),
+                #979796;
+}
+
+.section-2 {
+    width: 33.3vw;
+
+    background-color: #61615C;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+
+    width: 33.3vw;
+}
+
+.container-4 {
+    height: 50vh;
+
+    background-color: #78786F;
+}
+
+.container-5 {
+    height: 50vh;
+
+    background-color: #828569;
+}
+
+/*--------------------Footer----------------------*/
+
+footer {
+    height: 10vh;
+
+    background-color: #D9D9D9;
+}
