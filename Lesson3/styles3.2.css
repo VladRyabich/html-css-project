@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+
+    font-family: "Overpass Mono", monospace;
+    font-weight: 700;
+
+    color: black;
+    font-size: 70px;
+}
+
+/*---------------------Section Color-----------------------*/
+#pink {
+    background-color: pink;
+}
+#darkkhaki {
+    background-color: darkkhaki;
+}
+#skyblue {
+    background-color: skyblue;
+}
+
+/*-------------------------Text Decoration---------------------------*/
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+
+    width: 90%;
+
+    margin-bottom: 50px;
+}
