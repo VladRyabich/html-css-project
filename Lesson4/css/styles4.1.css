@@ -91,7 +91,7 @@ h1 {
 
 .section-media {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
 }
@@ -105,8 +105,6 @@ iframe {
 .media-text {
     width: 62vw;
     height: 18vh;
-
-    margin-top: 110px;
 }
 
 /*--------------------Section Cards--------------------*/
