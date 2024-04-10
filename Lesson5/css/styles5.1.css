@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list-1>li:nth-child(2n) {
+    color: pink;
+}
+
+.container-2>.list-2>li:nth-child(odd) {
+    font-size: 22px;
+}
+
+#defector-3>.list-3>.item-3:nth-child(2n + 4)::after {
+    content: "!";
+}
+
+ul>.item-4:last-child {
+    color: mediumpurple;
+}
+
+#defector-5>ul>li:first-letter {
+    font-size: 30px;
+    color: red;
+}
