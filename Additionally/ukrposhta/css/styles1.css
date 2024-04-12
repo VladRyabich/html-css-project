@@ -1,0 +1,88 @@
+/*              ROOT                */
+:root {
+    /*  Text Color  */
+    --nav-text: #99A2AA;
+}
+
+
+/*              GLOBAL STYLES               */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+}
+
+.container {
+    width: 1440px;
+
+    margin: 0 135px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+}
+
+
+/*              HEADER              */
+header {
+
+}
+
+.header-con {
+    display: flex;
+    flex-direction: column;
+
+    height: 150px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+
+    height: 60%;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+
+    height: 40%;
+}
+
+.navigation-list {
+    display: flex;
+    gap: 30px;
+
+    font-weight: 400;
+}
+.navigation-list a {
+    padding: 20px 0;
+
+    color: var(--nav-text);
+}
