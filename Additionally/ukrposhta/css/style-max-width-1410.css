@@ -2,4 +2,13 @@
     .services-list-btn {
         max-width: 570px;
     }
+
+    .col-xl-4 {
+        padding-top: 200px
+    }
+
+    .service-img {
+        position: static;
+        right: 190px;
+    }
 }

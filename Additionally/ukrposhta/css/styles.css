@@ -287,8 +287,9 @@ h1 {
 .service-img {
     position: absolute;
 
-    right: 213px;
-    bottom: 126px;
+    right: 58px;
+    bottom: 32px;
+    z-index: -1;
 }
 
 
