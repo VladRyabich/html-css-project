@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+    .header {
+        width: 97vw;
+        height: 10vh;
+    }
+    .content-box {
+        flex-wrap: wrap;
+    }
+    .box-b {
+        height: 55vh;
+    }
+    .box-section {
+        height: 20vh;
+    }
+    .box-left {
+        width: 100%;
+    }
+    .box-letter {
+        height: 20vh;
+    }
+    .box-f {
+        width: 97vw;
+        height: 10vh;
+    }
+}
