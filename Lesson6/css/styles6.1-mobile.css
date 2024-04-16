@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 98vw;
+
+        margin: 3px 0 3px 0;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+
+        height: 100%;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 40vh;
+    }
+
+    .art1,
+    .art2,
+    .art3,
+    .art4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 30vh;
+    }
+
+    .footer {
+        height: 20vh;
+    }
+}

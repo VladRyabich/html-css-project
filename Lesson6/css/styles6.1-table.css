@@ -1,0 +1,15 @@
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    .main {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-rows: 10fr 40fr 40fr 10fr;
+        grid-template-areas:
+        "header header header header"
+        "banner0 banner0 banner0 banner0"
+        "art1 art2 art3 art4"
+        "footer footer footer footer";
+
+        width: 98vw;
+        height: 98vh;
+    }
+}
